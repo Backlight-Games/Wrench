@@ -1,2 +1,2 @@
 # Wrench
-This is currently being rewritten from the ground-up with Java instead of JavaScript. The main branch is currently unstable. If you want to use this bot, use the old branch or please wait. For the old codebase, check the [old-javascript](https://github.com/CraftLight-Network/Wrench/tree/old-javascript) branch.
+Single-instance Discord bot built with modularity in mind. Includes automation and utilities to enhance your server with ease. (in heavy development)

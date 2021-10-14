@@ -1,8 +1,7 @@
-# Gradle files
-.gradle
-.idea
-run
-build
+# Build files
+/libs/
 
-# Testing files
-/config
+# Working files
+/config/
+/logs/
+/*.gz

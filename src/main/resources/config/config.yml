@@ -1,3 +1,7 @@
+# This is the main configuration file for Wrench.
+# You must change all channel IDs, user IDs, etc. to your liking.
+# Below is an example of what the file should look like.
+
 bot:
   # Name of the bot
   name: "Wrench"
@@ -9,60 +13,36 @@ bot:
     # Prefix for commands
     commands: "]"
 
-    # Prefix for tags
-    tags: ">"
-
   # Language file used
   language: "en"
 
-  # Cache settings
-  cache:
-    # How long to keep the message cache (hours)
-    messages: 168
+  # The common reply delete delay (seconds)
+  # Used mostly in commands
+  delete-delay: 3
 
-info:
-  # Support invite link
-  support: "https://encode42.dev/support"
-
-  # List of owners (User ID)
+  # List of owners (user ID)
   owners:
   - "272466470510788608"
 
-  # Bot credits
-  credits:
-  - "Encode42"
-  - "CraftLight Network"
+guild:
+  id: "684495087534866437"
 
-  # Activities to cycle through
-  status:
-    enabled: true
+  roles:
+    admin: "898010760750440469"
 
-    # Method to cycle by (random | order)
-    method: "random"
+# Colors used throughout messages (HEX)
+colors:
+  # Primary color
+  primary: "#4DABF7"
 
-    # Interval to run a new cycle (minutes)
-    interval: 1
+  # Secondary color
+  secondary: "#4F545C"
 
-    # status: Bot status type (online | idle | do_not_disturb | invisible)
-    # activity: Bot activity type (playing | watching | listening | streaming)
-    # content: org.craftlight.wrench.Main contents of the activity
-    cycle:
-    - status: "online"
-      activity: "watching"
-      content: "you. 🙂"
+  # Color for dangerous actions
+  destructive: "#ED4448"
 
-    - status: "online"
-      activity: "watching"
-      content: "%total_servers% servers."
+  # Color for successful actions
+  success: "#3EA55E"
 
-    - status: "online"
-      activity: "playing"
-      content: "a game."
-
-    - status: "online"
-      activity: "listening"
-      content: "%command_prefix%help"
-
-    - status: "online"
-      activity: "listening"
-      content: "everyone. 🙂"
+# Don't change!
+version: 1.0.0
