@@ -44,5 +44,52 @@ colors:
   # Color for successful actions
   success: "#3EA55E"
 
+# List of file types for nicknamer
+file-types:
+- AAC
+- AVI
+- BIN
+- BMP
+- CSS
+- CSV
+- DOC
+- DOCX
+- EPUB
+- GZ
+- GIF
+- HTML
+- ICO
+- JAR
+- JPG
+- JSON
+- MIDI
+- MP3
+- MP4
+- MPKG
+- OGG
+- OTF
+- PNG
+- PDF
+- PHP
+- RAR
+- SH
+- SVG
+- SWF
+- TAR
+- TIFF
+- TS
+- TTF
+- TXT
+- WAV
+- WEBM
+- WEBP
+- WOFF2
+- XML
+- ZIP
+- 7Z
+- CIA
+- 3DSX
+- ROM
+
 # Don't change!
 version: 1.0.0
