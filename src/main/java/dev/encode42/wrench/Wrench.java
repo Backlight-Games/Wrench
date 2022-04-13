@@ -73,11 +73,7 @@ public class Wrench {
 		random = new SplittableRandom();
 
 		Timer timer = new Timer();
-		Calendar calendar = Calendar.getInstance();
-
-		calendar.set(Calendar.HOUR_OF_DAY, 0);
-
-		timer.schedule(new NicknameTask(), calendar.getTime(), 1000 * 60 * 60 * 24);
+		timer.scheduleAtFixedRate(new NicknameTask(), 1000, 1000 * 60 * 60 * 24);
 
 		lang.info("logger.bot.started");
 	}
